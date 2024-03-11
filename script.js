@@ -14,3 +14,19 @@ let songs = [
     {songName : "Hotline Blink", filePath:"audio/4.mp3", coverPath:"logos/cover3.mp3"},
     {songName : "Caddy Shop", filePath:"audio/5.mp3", coverPath:"logos/cover.mp3"},
 ]
+
+// Handle pause/play click
+masterplay.addEventListener('click', ()=>{
+    if(audioElement.paused || audioElement.currentTime<=0){
+        audioElement.play();
+        masterplay.classList.remove('fa-circle-play');
+        masterplay.classList.add('fa-circle-pause');
+        gif.style.opacity = 1;
+    }
+    else{
+        audioElement.pause();
+        masterplay.classList.add('fa-circle-play');
+        masterplay.classList.remove('fa-circle-pause');
+        gif.style.opacity = 0;
+    }
+})
