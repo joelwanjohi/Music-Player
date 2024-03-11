@@ -30,3 +30,9 @@ masterplay.addEventListener('click', ()=>{
         gif.style.opacity = 0;
     }
 })
+
+// Listening to events 
+audioElement.addEventListener('timeupdate',()=>{
+    progress = parseInt((audioElement.currentTime/audioElement.duration)*100);
+    myprogressbar.value = progress;
+})
