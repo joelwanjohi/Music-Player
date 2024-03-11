@@ -98,3 +98,19 @@ nav ul li:hover{
     font-size: x-small;
     font-weight: bold;
 }
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.timestamp{
+    padding: 10px 10px;
+}
+.fa-regular{
+    padding: 10px;
+    cursor: pointer;
+}
+.bottom .mastersongname{
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
