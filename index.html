@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-your own music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li id="brand"><img src="./logos/logo.png" alt="No_Image"></li>
+        <li>Home</li>
+        <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h2>Your Top Mixes</h2>
+            <div class="songs">
+                <div class="songitem">
+                    <img src="./logos/song1.jpg">
+                    <span class="songname">Wishing Well</span>
+                    <span class="songListPlay"><span class="timestamp">4:00</span><i id="1" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./logos/song2.jpg">
+                    <span class="songname">Promises</span>
+                    <span class="songListPlay"> <span class="timestamp">3:09</span><i id="2" class="fa-regular songitemplay fa-circle-play" ></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./logos/song3.jpg">
+                    <span class="songname">Paint City Red</span>
+                    <span class="songListPlay"><span class="timestamp">3:30</span><i id="3" class="fa-regular songitemplay fa-circle-play" ></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./logos/cover1.jpg">
+                    <span class="songname">Hotline Bling</span>
+                    <span class="songListPlay"><span class="timestamp">3:42</span><i id="4" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./logos/song4.jpg">
+                    <span class="songname">Caddy Shop </span>
+                    <span class="songListPlay"><span class="timestamp">3:46</span><i id="5" class="fa-regular songitemplay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-sharp fa-3x fa-solid fa-backward" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="./logos/gif.gif" width="52px" id="gif"><div id="mastersongname">Passion Fruit</div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/49de6c3358.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
