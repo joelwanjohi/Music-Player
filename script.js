@@ -36,3 +36,13 @@ audioElement.addEventListener('timeupdate',()=>{
     progress = parseInt((audioElement.currentTime/audioElement.duration)*100);
     myprogressbar.value = progress;
 })
+myprogressbar.addEventListener('change',()=>{
+    audioElement.currentTime = myprogressbar.value*audioElement.duration/100;
+})
+
+const makeallplays = ()=>{
+    Array.from(document.getElementsByClassName('songitemplay')).forEach((element)=>{
+        element.classList.remove('fa-circle-pause');
+        element.classList.add('fa-circle-play');
+    })
+}
