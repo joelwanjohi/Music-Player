@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:ital,wght@1,300&family=Ubuntu:wght@300;400&display=swap');
 
 body{
-    background-color: grey;
+    background-color: rgb(51, 39, 39);
 }
 
 *{
@@ -104,7 +104,8 @@ nav ul li:hover{
 }
 
 .timestamp{
-    padding: 10px 10px;
+    
+    padding: 10px 30px;
 }
 .fa-regular{
     padding: 10px;
