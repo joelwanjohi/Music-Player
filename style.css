@@ -86,3 +86,15 @@ nav ul li:hover{
     align-items: center;
     font-weight: bolder;
 }
+.songitem img{
+    width: 50px;
+    margin: 20px; 
+    border-radius: 50px;
+}
+.songinfo{
+    position: absolute;
+    left: 2vw;
+    padding: 20px;
+    font-size: x-small;
+    font-weight: bold;
+}
