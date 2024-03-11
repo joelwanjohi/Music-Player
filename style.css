@@ -23,3 +23,26 @@ nav ul{
     color: aliceblue;
     font-weight: bolder;
 }
+nav ul li{
+    padding: 0px 12px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: green;
+}
+
+#brand img{
+    width: 70px;
+    padding: 0px 8px;
+}
+.container{
+    min-height: 70vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    margin : 25px auto;
+    width: 70%;
+    border-radius: 30px;
+    background-image: url('logos/bg1.jpg');
+}
