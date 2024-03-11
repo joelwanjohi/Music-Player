@@ -66,3 +66,23 @@ nav ul li:hover{
     color : white;
     flex-direction: column;
 }
+.icons{
+    margin-top: 15px;
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 75vw;
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    width: 85%;
+    background-color: green;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 26px;
+    border-radius: 30px;
+    align-items: center;
+    font-weight: bolder;
+}
