@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:ital,wght@1,300&family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:ital,wght@1,300&family=Ubuntu:wght@300;400&display=swap');
+
+body{
+    background-color: grey;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    color: aliceblue;
+    font-weight: bolder;
+}
